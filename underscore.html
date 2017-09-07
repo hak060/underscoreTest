@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+
+<body id = "underscore">
+  <p id = "output">function error</p>
+<script src="https://code.jquery.com/jquery-2.1.1.js"></script>
+<script src="underscore.js"></script>
+<script src="underbarTest.js"></script>
+<script>
+
+var input = 12345;
+
+document.getElementById("output").innerHTML = 
+//_.map([1,2,3], function(num){ return num*3});
+_.identity1(input);
+
+$('body').css('background-color', '#262626');
+$('#output').css({ 'color': 'white', 'font-size': '200%' });
+</script>
+</body>
+</html>
